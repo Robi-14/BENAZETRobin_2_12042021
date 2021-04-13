@@ -1,0 +1,33 @@
+*{margin :0}
+
+@font-face {
+    font-family: "raleway";
+    src: url(police/Raleway-VariableFont_wght.ttf);}
+
+
+body{font-family: "raleway";}
+a  { text-decoration: none;}
+#navbar{
+
+display: flex;
+justify-content: space-between;
+}
+/*Menu*/
+#navbar ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+   
+}     
+#navbar ul li  { 
+    padding: 30px; border-top: 3px transparent solid;
+}
+#navbar ul li:hover{
+    border-top: 3px #0065fc solid; 
+}
+.ancre {color: gray ;}
+.ancre:hover{ color:#0065fc}
+#s_inscrire{color: #0065fc; font-weight: bold}
+
+/*Logo*/
+#navbar img{ width: 5%; margin: 20px;}
