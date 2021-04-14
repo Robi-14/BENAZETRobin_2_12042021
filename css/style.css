@@ -5,7 +5,7 @@
     src: url(police/Raleway-VariableFont_wght.ttf);}
 
 
-body{font-family: "raleway";}
+body{font-family: "raleway";margin-left: 100px;margin-right: 100px;}
 a  { text-decoration: none;}
 #navbar{
 
@@ -17,6 +17,7 @@ justify-content: space-between;
     display: flex;
     align-items: center;
     list-style-type: none;
+
    
 }     
 #navbar ul li  { 
@@ -30,4 +31,50 @@ justify-content: space-between;
 #s_inscrire{color: #0065fc; font-weight: bold}
 
 /*Logo*/
-#navbar img{ width: 5%; margin: 20px;}
+#navbar img{ width: 5%; }
+
+/*titre*/
+h1  {font-size: 120%;}
+p{font-size: 80%;margin-top: 10px;}
+
+/* barre de recherche */
+#localisation{
+background-color: #f2f2f2;
+font-size: 20px; 
+border: none;
+border-top-left-radius: 15px;
+border-bottom-left-radius: 15px;
+width: 40px;
+ height: 40px;
+display: flex;
+justify-content: center;
+align-items: center;}
+
+#searchbar{
+display: flex;margin-top: 50px;align-items: center;
+}
+#txtsearch{
+width: 200px;
+height: 40px;
+border:none ;
+outline: none;
+border-top: 2px solid #f2f2f2;
+border-bottom: 2px solid #f2f2f2;
+
+
+
+}
+#bouton{
+  height: 40px;  
+   width: 120px;
+   border: none;
+   background-color: #0065fc;
+   outline: none;
+   font-size: 15px;
+   color: white;
+   font-weight: bold;
+   border-top-right-radius: 15px ;
+   border-bottom-right-radius: 15px;
+   border: none;
+    
+}
