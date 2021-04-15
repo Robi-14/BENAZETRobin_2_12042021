@@ -35,7 +35,7 @@ justify-content: space-between;
 
 /*titre*/
 h1  {font-size: 120%;}
-p{font-size: 80%;margin-top: 10px;}
+#sous_titre{font-size: 80%;margin-top: 10px;}
 
 /* barre de recherche */
 #localisation{
@@ -51,30 +51,174 @@ justify-content: center;
 align-items: center;}
 
 #searchbar{
-display: flex;margin-top: 50px;align-items: center;
+display: flex;margin-top: 20px; 
 }
 #txtsearch{
+
 width: 200px;
 height: 40px;
 border:none ;
 outline: none;
 border-top: 2px solid #f2f2f2;
 border-bottom: 2px solid #f2f2f2;
+padding-top: 2px ;
+font-family: raleway;
+font-weight: bold;
 
-
-
+padding-left: 10px;
+}
+#txtsearch::placeholder{
+    color:black;
 }
 #bouton{
-  height: 40px;  
-   width: 120px;
-   border: none;
-   background-color: #0065fc;
-   outline: none;
-   font-size: 15px;
-   color: white;
-   font-weight: bold;
-   border-top-right-radius: 15px ;
-   border-bottom-right-radius: 15px;
-   border: none;
-    
+   
+    height: 40px;  
+    width: 120px;
+    border: none;
+    background-color: #0065fc;
+    outline: none;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    border-top-right-radius: 15px ;
+    border-bottom-right-radius: 15px;
 }
+
+/*Filtres*/
+#filtres{
+margin-top: 20px;width: 80%;padding: 10px;
+display: flex;
+align-items: center;
+font-weight: bold;
+font-size: 15px;
+
+
+
+
+}
+#economie{ margin-left:20px;padding:10px;
+    width: 130px;
+    height: 10px;
+    display: flex;
+    border: solid #f2f2f2 3px;
+    border-radius: 60px;
+    align-items: center;
+    padding-left: 0;
+    border-left: none;
+
+}
+#billet{
+    color: #0065fc;
+    background-color: #deebff;
+    height: 36px;
+    width: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    
+
+}
+.classe{display: flex;
+padding-left:10px;
+font-weight: bold;
+font-size: 15px;}
+
+#economie:hover{
+    background-color: #0065fc;
+    border: solid 3px #0065fc;
+    border-left: none ;
+}
+#familial{ margin-left:20px;padding:10px;
+    width: 110px;
+    height: 10px;
+    display: flex;
+    border: solid #f2f2f2 3px;
+    border-radius: 60px;
+    align-items: center;
+    padding-left: 0;
+    border-left: none;
+}
+
+#enfant{color: #0065fc;
+    background-color: #deebff;
+    height: 36px;
+    width: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+}
+#familial:hover{
+    background-color: #0065fc;
+    border: solid 3px #0065fc;
+    border-left: none ;
+}
+#romantique{ margin-left:20px;padding:10px;
+    width: 130px;
+    height: 10px;
+    display: flex;
+    border: solid #f2f2f2 3px;
+    border-radius: 60px;
+    align-items: center;
+    padding-left: 0;
+    border-left: none;
+}
+#coeur{color: #0065fc;
+    background-color: #deebff;
+    height: 36px;
+    width: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;}
+    
+#romantique:hover{
+    background-color: #0065fc;
+    border: solid 3px #0065fc;
+    border-left: none ;
+    }
+#animaux{ margin-left:20px;padding:10px;
+    width: 180px;
+    height: 10px;
+    display: flex;
+    border: solid #f2f2f2 3px;
+    border-radius: 60px;
+    align-items: center;
+    padding-left: 0;
+    border-left: none;
+    }
+
+#dog{color: #0065fc;
+    background-color: #deebff;
+    height: 36px;
+    width: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;}
+#animaux:hover{
+    background-color: #0065fc;
+    border: solid 3px #0065fc;
+    border-left: none ;
+    }
+    
+/*info*/
+#info{
+    display: flex; padding-top: 20px;align-items: center;
+}
+#I{
+border: #f2f2f2 solid 3px;
+border-radius: 20px;
+width: 20px;
+height: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 10px;
+color: #0065fc;
+} 
+#information{
+ padding-left: 10px;   
+ font-size: 12px;
+}  

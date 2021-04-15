@@ -7,8 +7,10 @@
         <title>Reservia</title>
     </head>
     <body>
-    <!--Header--> 
+    
+        <!--Header--> 
         <header>
+            <!--navigation-->
             <nav id="navbar">
                 <img src="img/Reservia.svg" alt="Logo"id="logo">
            
@@ -19,25 +21,52 @@
                     <li> <a href="#" id="s_inscrire">S'inscrire</a></li>
                 </ul>
             </nav>
-
+           
+            <!--tittres-->
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-            <p>En plein centre ville ou en pleine nature</p>
+            <p id="sous_titre">En plein centre ville ou en pleine nature</p>
 
+            <!-- Barre de recherche-->
             <section id=searchbar>
                 <div id=localisation><i class="fas fa-map-marker-alt"></i></div>
                 <form action="#" method="post">
                     <input type="search" name="rechercher" id="txtsearch" placeholder="Marseille, France">
                     <button type="submit" value="Rechercher" id="bouton"> Rechercher </button>
                 </form>
+            </section>
+                
+            <!--Filtres-->
+            <section id="filtres">
+                <p>Filtres</p>
+                <div id="economie">
+                    <i class="fas fa-money-bill-wave" id="billet"></i>
+                    <p class="classe">Économique</p>
+                </div>
+                <div id="familial">
+                        <i class="fas fa-child" id="enfant"></i>
+                        <p class="classe">Familial</p>
+                </div>
+                <div id="romantique">
+                    <i class="fas fa-heart" id= "coeur"></i>
+                    <p class="classe">Romantique</p>
+                </div>
+                <div id="animaux">
+                    <i class="fas fa-dog" id="dog"></i>
+                    <p class="classe">Animaux autorisés</p>
+                </div>
+            </section>
+            
+            <!--Info-->
+            <section id="info">
+                <i class="fas fa-info" id=I></i>
+                <p id="information">Plus de 500 logements sont disponnible dans cette ville</p>
+
+            </section>
 
 
 
 
-
-
-
-
-            </div>
+            
 
         </header>
 
