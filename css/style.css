@@ -253,8 +253,8 @@ justify-content: space-between;
 max-width: 100%;
 height: 60%;
 object-fit: cover;
-border-top-left-radius: 10%;
-border-top-right-radius: 10%;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
 
 }
 
@@ -291,8 +291,8 @@ font-weight: normal
     background: white;
     display: flex;
     flex-direction: column;
-    border-radius: 10%;
-    box-shadow: grey 3px 3px 3px 3px;
+    border-radius: 10px;
+    box-shadow: #f2f2f2 2px 2px 2px 2px;
 color:black;}
     
     
@@ -302,7 +302,105 @@ height: 150px;
 background: white;
 display: flex;
 flex-direction: column;
-border-radius: 10%;
+border-radius: 10px;
         
         }
 
+#partie1{width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#populaire{ 
+    margin-top: 30px;
+    width: 28%;
+    height: 450px;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    padding-left: 2%;
+    padding-right: 2%;
+    display: flex;
+    flex-direction: column;
+    
+  
+}
+
+#headpop{width: 100%;
+    height: auto;
+    display: flex;
+}
+#titrepopulaire{
+    padding-top: 10%;
+    padding-right: 35%;
+    font-size: 120%; 
+}
+#stat{
+    padding-top: 10%;
+    font-size: 120%;
+}
+#pop{ 
+ margin-top: 3%;
+width: 100%;
+height: 450px;
+display: flex;
+flex-direction: column;
+}
+
+
+.clic2 {
+display: block;
+width: 100%;
+height: 105px;
+margin-bottom: 25px;
+background: white;
+display: flex;
+border-radius: 10%;
+box-shadow: #f2f2f2 2px 2px 2px 2px;
+color:black;
+
+
+}
+
+.hbrgpopulaire{
+    width: 100%;
+    height: 105px;
+    background: white;
+    display: flex;
+    flex-direction:column;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    
+    
+ 
+    
+}
+
+.imgpop{margin: 3px;
+    width: 40%;
+    height: 95%;
+   
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.titrepop{ margin-top: 10px;
+    margin-left: 5% ;
+    font-size: 80%;
+    margin-right: 60%;
+    
+    
+}
+.prixpop{
+    margin-top: 10px;
+    margin-left: 5% ;
+    font-size: 70%;
+    margin-right: 60%;
+    font-weight: normal;
+    }
+
+.etoilespop{
+    display: flex;margin-left: 5%;
+    margin-top: 15px;
+}
