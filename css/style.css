@@ -5,8 +5,9 @@
     src: url(police/Raleway-VariableFont_wght.ttf);}
 
 
-body{font-family: "raleway";margin-left: 400px;margin-right: 400px;}
-a  { text-decoration: none;}
+body{font-family: "raleway";}
+header{margin-left: 400px;margin-right: 400px;}
+a  { text-decoration: none; color: black;}
 #navbar{
 
 display: flex;
@@ -225,6 +226,7 @@ color: #0065fc;
 }  
 
 /*Main*/
+main{margin-left: 400px;margin-right: 400px;}
 
 /*Herbergement*/
 #hebergementmarseille{
@@ -522,3 +524,35 @@ flex-direction: column;
     object-fit: cover;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;}
+
+
+footer{
+    margin-left: 350px;
+    margin-right: 350px;
+    height: 150px;
+    background-color: #f2f2f2;
+    margin-top: 30px;
+   display: flex; 
+  
+}
+.footer{
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+    margin-right: 15%;
+}
+
+.titresfooter{
+
+margin-left: 40px;
+font-size: 100%;
+margin-bottom: 4%;
+}
+.footer ul{
+    list-style: none;
+}
+.footer ul li {
+    margin-top: 4%;
+    font-size: 80%;
+    
+}
