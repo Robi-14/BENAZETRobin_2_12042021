@@ -8,19 +8,22 @@
 body{font-family: "raleway";}
 header{margin-left: 400px;margin-right: 400px;}
 a  { text-decoration: none; color: black;}
+
+
 #navbar{
 
 display: flex;
 justify-content: space-between;
 }
 /*Menu*/
-#navbar ul {
+#navi {
     display: flex;
     align-items: center;
     list-style-type: none;
 
    
 }     
+#menu{display: flex;}
 #navbar ul li  { 
     padding: 30px; border-top: 3px transparent solid;
 }
@@ -29,7 +32,7 @@ justify-content: space-between;
 }
 .ancre {color: gray ;}
 .ancre:hover{ color:#0065fc}
-#s_inscrire{color: #0065fc; font-weight: bold}
+#s_inscrire{color: #0065fc; font-weight: bold;padding: 30px; border-top: 3px transparent solid;}
 
 /*Logo*/
 #navbar img{ width: 5%; }
@@ -85,7 +88,14 @@ padding-left: 10px;
     border-top-right-radius: 15px ;
     border-bottom-right-radius: 15px;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
+#loupe{visibility: hidden;}
+#rechercher{margin-left: 15px;}
+
 
 /*Filtres*/
 #filtres{
@@ -99,6 +109,7 @@ font-size: 15px;
 
 
 }
+#ecofamille{display: flex;}
 #economie{ margin-left:20px;padding:10px;
     width: 130px;
     height: 10px;
@@ -556,4 +567,121 @@ margin-bottom: 4%;
     margin-top: 4%;
     font-size: 80%;
     
+}
+
+@media screen and (max-width:1024px){
+
+header{margin-left: 10px;margin-right: 10px;}
+#navbar img{ width: 20%;position: absolute;}
+#menu{flex-direction: column-reverse;align-items: flex-end;width: 100%;font-size:180%}
+#navi{display: flex; width: 100%; justify-content: space-around;} 
+#navbar ul li  { 
+    width: 100%;
+    margin-top:10px;
+    padding: 0px;   
+    padding-bottom:10px ;
+    border-bottom: 3px #f2f2f2 solid;
+    text-align: center;
+}
+#navbar ul li:hover{
+width: 100%;
+padding-bottom: 10px;
+border-top:unset ;
+border-bottom: solid 3px #0065fc;
+}
+h1  {margin-top: 30px;font-size: 230%;display: flex; justify-content: center ;margin-right:25%; margin-left: 25%;}
+#sous_titre{margin-top:20px;font-size: 150%;margin-left: 25%;}
+
+#searchbar{
+    margin-left: 25%;margin-top: 40px;margin-right: 14%; border-top: #f2f2f2 solid 3px;border-bottom: #f2f2f2 solid 3px; border-radius: 30px;
+    }
+    #localisation{
+       
+        font-size: 30px; 
+        width: 80px;
+        height: 80px;
+        
+    }
+    #txtsearch{
+        border: unset;
+        width: 430px;
+        height: 80px;
+    font-size: 200%;}
+        #txtsearch::placeholder{
+            color:black;
+            font-size: 100%;
+            padding-left: 20px;}
+
+#rechercher{display: none;}
+#loupe{visibility:visible;}
+#bouton{
+    height: 80px;  
+    width: 80px;
+    font-size: 30px;
+    border-radius: 20px;}
+    
+#filtres{margin-left:25%;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0%;
+       
+}
+#titrefiltre{ font-size:180%;}
+#economie{ margin-left:0; margin-top: 15px;
+    width: 250px;
+    height: 40px;
+
+}
+#billet{
+    height: 67px;
+    width: 67px;
+    border-radius: 30px;
+    font-size: 150%;
+}
+.classe{
+    padding-left:20px;
+    font-size: 25px;}
+#ecofamille{display: inline-flex;
+align-items: center;}
+#familial{ margin-left:20px; margin-top: 15px;
+    width: 200px;
+    height: 40px;
+}
+#enfant{
+    height:67px;
+    width: 67px;
+    border-radius: 30px;
+    font-size: 150%;
+}
+#romantique{ margin-left:0px;margin-top: 10px;
+    width: 230px;
+    height: 40px;
+    
+}
+#coeur{
+    height:67px;
+    width: 67px;
+    border-radius: 30px;
+    font-size: 150%;
+}
+#animaux{ margin-left:0px;margin-top: 10px;
+    width: 320px;
+    height: 40px;
+ }
+ #dog{ height:67px;
+    width: 67px;
+    border-radius: 30px;
+    font-size: 150%;}
+#info{
+    display: flex; padding-top: 20px;margin-left:25%;}
+    #I{
+        padding-right: 5px;
+        padding-left: 5px;
+        border-radius:25px;
+        width: 50px;
+        height: 50px;
+        font-size: 20px;align-self: flex-start;}    
+    #information{
+        font-size: 24px;margin-right: 25%;padding-top: 20px;}
+        
 }

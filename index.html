@@ -14,12 +14,13 @@
             <nav id="navbar">
                 <img src="img/Reservia.svg" alt="Logo" id="logo">
            
-            
-                <ul>        
+                <section id="menu">
+                <ul id=navi>        
                     <li> <a href="#hebergement" class="ancre">Hébergements</a></li>
                     <li> <a href="#activites" class="ancre">Activités</a></li>
-                    <li> <a href="#" id="s_inscrire">S'inscrire</a></li>
                 </ul>
+                <a href="#" id="s_inscrire">S'inscrire</a>
+            </section>
             </nav>
            
             <!--tittres-->
@@ -31,13 +32,15 @@
                 <div id=localisation><i class="fas fa-map-marker-alt"></i></div>
                 <form action="#" method="post">
                     <input type="search" name="rechercher" id="txtsearch" placeholder="Marseille, France">
-                    <button type="submit" value="Rechercher" id="bouton"> Rechercher </button>
+                    <button type="submit" value="Rechercher" id="bouton"> <p id="rechercher">Rechercher </p><i class="fas fa-search" id="loupe"></i></button>
+
                 </form>
             </section>
                 
             <!--Filtres-->
             <section id="filtres">
-                <p>Filtres</p>
+                <p id="titrefiltre">Filtres</p>
+                <section id="ecofamille">
                 <div id="economie">
                     <i class="fas fa-money-bill-wave" id="billet"></i>
                     <p class="classe">Économique</p>
@@ -46,6 +49,7 @@
                         <i class="fas fa-child" id="enfant"></i>
                         <p class="classe">Familial</p>
                 </div>
+                </section>
                 <div id="romantique">
                     <i class="fas fa-heart" id= "coeur"></i>
                     <p class="classe">Romantique</p>
