@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
     <head>
         <meta charset="utf-8" />
         <link rel="stylesheet" href="css/style.css" />
@@ -14,13 +14,13 @@
             <nav id="navbar">
                 <img src="img/Reservia.svg" alt="Logo" id="logo">
            
-                <section id="menu">
+                <div id="menuhead">
                 <ul id=navi>        
                     <li> <a href="#hebergement" class="ancre">Hébergements</a></li>
                     <li> <a href="#activites" class="ancre">Activités</a></li>
                 </ul>
                 <a href="#" id="s_inscrire">S'inscrire</a>
-            </section>
+            </div>
             </nav>
            
             <!--tittres-->
@@ -28,19 +28,19 @@
             <p id="sous_titre">En plein centre ville ou en pleine nature</p>
 
             <!-- Barre de recherche-->
-            <section id=searchbar>
+            <div id=searchbar>
                 <div id=localisation><i class="fas fa-map-marker-alt"></i></div>
                 <form action="#" method="post">
                     <input type="search" name="rechercher" id="txtsearch" placeholder="Marseille, France">
                     <button type="submit" value="Rechercher" id="bouton"> <span id="rechercher">Rechercher </span><i class="fas fa-search" id="loupe"></i></button>
 
                 </form>
-            </section>
+            </div>
                 
             <!--Filtres-->
-            <section id="filtres">
+            <div id="filtres">
                 <p id="titrefiltre">Filtres</p>
-                <section id="ecofamille">
+                <div id="ecofamille">
                 <div id="economie">
                     <i class="fas fa-money-bill-wave" id="billet"></i>
                     <p class="classe">Économique</p>
@@ -49,7 +49,7 @@
                         <i class="fas fa-child" id="enfant"></i>
                         <p class="classe">Familial</p>
                 </div>
-                </section>
+                </div>
                 <div id="romantique">
                     <i class="fas fa-heart" id= "coeur"></i>
                     <p class="classe">Romantique</p>
@@ -58,20 +58,20 @@
                     <i class="fas fa-dog" id="dog"></i>
                     <p class="classe">Animaux autorisés</p>
                 </div>
-            </section>
+            </div>
             
             <!--Info-->
-            <section id="info">
+            <div id="info">
                 <i class="fas fa-info" id=I></i>
                 <p id="information">Plus de 500 logements sont disponnible dans cette ville</p>
 
-            </section>
+            </div>
         </header>
 
         <!--Main-->
         <main>
         <!--Herbergements à marseille et les plus populaires (partie1)-->
-        <section id="partie1">
+        <div id="partie1">
         <!--Marseille-->
         <section id="hebergementmarseille">
             <h2 id="hebergement"> Hébergements à Marseille</h2>
@@ -219,7 +219,7 @@
                             </a>
     </div>
 </section>
-</section>
+</div>
 
 <!-- Activités à Marseille (partie 2 )-->
 <section id="activités">

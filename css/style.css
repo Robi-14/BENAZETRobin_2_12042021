@@ -23,7 +23,7 @@ justify-content: space-between;
 
    
 }     
-#menu{display: flex;}
+#menuhead{display: flex;}
 #navbar ul li  { 
     padding: 30px; border-top: 3px transparent solid;
 }
@@ -573,7 +573,7 @@ margin-bottom: 4%;
 
 header{margin-left: 0px;margin-right: 0px;}
 #navbar img{ width: 30%;position: absolute;align-self: flex-start;margin-left: 5% ;}
-#menu{flex-direction: column-reverse;align-items: flex-end;width: 100%;font-size:300%}
+#menuhead{flex-direction: column-reverse;align-items: flex-end;width: 100%;font-size:300%}
 #s_inscrire{padding-right: 0%;padding-left: 0%;margin-right: 5%;}
 #navi{display: flex; width: 100%; justify-content: space-around;} 
 #navbar ul li  { 
@@ -897,6 +897,6 @@ flex-direction: column;
 .footer ul li { margin-top: 4%;
     font-size: 190%;margin-bottom: 3%;}
 
-}
-.footer{margin-top:70px;}
+
+.footer{margin-top:70px;}}
 
