@@ -569,12 +569,24 @@ margin-bottom: 4%;
     
 }
 
+
+@media screen and (max-width:1280px){
+    header{ margin-left: 40px;margin-right: 40px;}
+    main{margin-left: 40px;margin-right: 40px;}
+    .titrepop {max-width: 40%;margin-right: 0%;margin-left: 0%;}
+    .prixpop{margin-right: 0%;margin-left: 0%;}
+    .etoilespop{margin-left: 0%;}
+    #titrepopulaire{padding-right: 40%;}
+    footer{margin: 0; width: 100%;}
+    #navbar img{ width: 10%; }
+    }
+
 @media screen and (max-width:1024px){
 
 header{margin-left: 0px;margin-right: 0px;}
 #navbar img{ width: 30%;position: absolute;align-self: flex-start;margin-left: 5% ;}
 #menuhead{flex-direction: column-reverse;align-items: flex-end;width: 100%;font-size:300%}
-#s_inscrire{padding-right: 0%;padding-left: 0%;margin-right: 5%;}
+#s_inscrire{padding-right: 0%;padding-left: 0%;margin-right: 5%; padding-top: 50px;}
 #navi{display: flex; width: 100%; justify-content: space-around;} 
 #navbar ul li  { 
     width: 100%;
@@ -627,7 +639,7 @@ h1  {margin-top: 30px;font-size: 400%;display: flex; justify-content: center ;ma
         padding: 0%;
        
 }
-#titrefiltre{ font-size:180%;}
+#titrefiltre{ font-size:250%;}
 #economie{ margin-left:0; margin-top:20px;
     width: 450px;
     height: 80px;
