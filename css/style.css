@@ -570,26 +570,28 @@ margin-bottom: 4%;
     
 }
 
-@media screen and (min-width:1280px){
-    body{ margin-left: 6rem;margin-right: 6rem;}
-    header{ margin-left: 0px;margin-right: 0px;}
-    main{margin-left: 0px;margin-right: 0px;}
-    footer{margin: 0; width: 100%;margin-top: 30px;}
+@media screen and (max-width:1880px){
+    header{ margin-left: 150px;margin-right: 150px;}
+    main{margin-left: 150px;margin-right: 150px;}
+    footer{margin: 0; width: 95%;margin-top: 30px;margin-left: 40px;margin-right: 40px;}
+    #partie1{height: 480px;}
+    .titrepop {max-width: 40%;margin-right: 0%;margin-left: 0%;}
+    .prixpop{margin-right: 0%;margin-left: 0%;}
+    .etoilespop{margin-left: 0%;}}
+  
    
 @media screen and (max-width:1280px){
     header{ margin-left: 40px;margin-right: 40px;}
     main{margin-left: 40px;margin-right: 40px;}
-    #partie1{height: 480px;}
-    .titrepop {max-width: 40%;margin-right: 0%;margin-left: 0%;}
-    .prixpop{margin-right: 0%;margin-left: 0%;}
-    .etoilespop{margin-left: 0%;}
+   
   
 
     footer{margin: 0; width: 100%;margin-top: 30px;}
     #navbar img{ width: 10%; }
     }
-
-
+ @media screen and (max-width:1039px){
+    .titrepop{max-width: 45%;}
+    }
 @media screen and (max-width:1024px){
 
 header{margin-left: 0px;margin-right: 0px;}
@@ -615,20 +617,24 @@ h1  {margin-top: 30px;font-size: 400%;display: flex; justify-content: center ;ma
 #sous_titre{margin-top:30px;font-size:280%;margin-left: 5%;}
 
 #searchbar{
-    margin-left: 5%;margin-top: 60px; border-top: #f2f2f2 solid 3px;border-bottom: #f2f2f2 solid 3px; border-radius: 30px;margin-right: 10%;
+    margin-left: 5%;margin-top: 60px; border-top: #f2f2f2 3px solid; width: 70%;border-bottom: #f2f2f2 3px solid;border-radius: 20px;
     }
     #localisation{
-       
+     
         font-size: 60px; 
         width: 110px;
         height: 110px;
+        position: absolute;
         
     }
+    .fa-map-marker-alt{display: block;}
     #txtsearch{
         border: unset;
         width: 630px;
         height: 110px;
-    font-size: 200%;}
+    font-size: 200%;
+    padding-left: 15%;
+    }
         #txtsearch::placeholder{
             color:black;
             font-size: 100%;
@@ -640,7 +646,8 @@ h1  {margin-top: 30px;font-size: 400%;display: flex; justify-content: center ;ma
     height: 110px;  
     width: 110px;
     font-size: 30px;
-    border-radius: 20px;}
+    border-radius: 20px;
+}
     
 #filtres{margin-left:5%;margin-top: 60px;
         flex-direction: column;
@@ -922,4 +929,3 @@ flex-direction: column;
 
 
 .footer{margin-top:70px;}}
-
