@@ -5,7 +5,7 @@
     src: url(police/Raleway-VariableFont_wght.ttf);}
 
 
-body{font-family: "raleway";}
+body{font-family: "raleway";color: black;}
 header{margin-left: 400px;margin-right: 400px;}
 a  { text-decoration: none; color: black;}
 
@@ -35,7 +35,7 @@ justify-content: space-between;
 #s_inscrire{color: #0065fc; font-weight: bold;padding: 30px; border-top: 3px transparent solid;}
 
 /*Logo*/
-#navbar img{ width: 5%; }
+#navbar img{ width: 10%; }
 
 /*titre*/
 h1  {font-size: 120%;}
